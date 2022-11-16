@@ -78,7 +78,7 @@ console.log(" ");
 
 let pizzasImpar = pizzas.filter(pizza => pizza.id % 2 !== 0);
 
-pizzasImpar.forEach(pizza => console.log(`La pizza ${pizza.nombre} tiene id impar`));
+pizzasImpar.forEach(pizza => console.log(`La pizza ${pizza.nombre} tiene id impar, el cual es: ${pizza.id}`));
 
 console.log(" ");
 // actividad b, pizzas que valgan menos de $600
